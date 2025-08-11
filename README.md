@@ -1,2 +1,2 @@
-# Python_-practise
+# Python_spractise
 learning python
