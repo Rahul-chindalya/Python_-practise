@@ -1,0 +1,1666 @@
+30th June 2025    
+==============
+
+    -> Programming Language
+
+        Global   North  South (Regions)  
+    -> English, Hindi, Telugu etc
+
+        -> Communication for Humans
+
+    -> Programming Language
+
+        -> Communication for Computers/Machines etc
+
+        -> Python, Java, C, HTML, JS etc (Domains)  
+
+            -> Java (Banking, Enterprise etc )
+
+                -> ROBUSTNESS 
+
+                -> APPLICATIONS ARE FAST
+
+                -> SPEED OF DEVELOPMENT (SLOW)
+
+            -> Python (AI, DS, Cloud, Backend Systems etc)
+
+                -> EASINESS (SYNTAX)
+
+                -> SPEED OF DEVELOPMENT (FAST)
+
+
+    -> Programming Paradigms
+
+        -> Imperative
+
+            -> HOW TO DO SOMETHING (Python)
+
+        -> Declarative
+
+            -> WHAT TO DO (SQL)
+
+    
+    -> Programming Language Types
+
+        -> HIGH LEVEL
+
+            -> EASY TO UNDERSTAND BY USERS
+
+            -> Python is High Level Programming Language
+
+        -> LOW LEVEL
+
+            -> EASY TO UNDERSTAND BY MACHINES
+
+    -> 01010111(W) 01100101(e) 01101100 01100011 01101111 01101101 
+       01100101 00100000 01010100 01101111 00100000 01010000 
+       01111001 01110100 01101000 01101111 01101110    (Low Level/Machine Level)    
+
+       -> Embedded Systems, Networking, System Drivers, OS Level etc 
+
+    ->  print("Welcome To Python")
+
+    -> Indentation
+
+        -> Simple Java Program (Calculate Sum Of Two Numbers)
+
+            --> Main.java    
+            public class Main {
+                public static void main(String[] args) {
+                    public String a = 10;
+                    public int b = 10;
+                    public String text = "hello";
+                    int sum = a+b;
+                    System.out.println("Sum is": +sum)
+                }
+            }
+
+        -> Simple Python Program (Calculate Sum Of Two Numbers) 
+
+            --> main.py
+            a = 10
+            b = 10
+            text = "hello"
+            print("Sum is:",a+b )
+
+    -> Daily 45 Mins (9:15 AM to 10 AM)
+
+1st July 2025    
+==============
+
+    -> Python -> Author -> Guido van Rossum
+
+    -> Python 1st version - Feb 1991
+
+    -> ABC Programming Language 
+
+    -> Key Features Of Python / Why Python ?
+
+        -> Simple & Easy (Readability - Indentation(spaces))
+
+        -> Cross Platform (RUN ANYWHERE in macos / win / linux )
+
+        -> Dynamically Typed (Data we don't need to ASSIGN TYPES)
+
+        -> Versatile (Extensive Library Support)
+
+            -> DS / ML / AI : Numpy, Pandas, Tensorflow, PyTorch etc
+
+            -> Web Development : Django, Flask, FASTAPI etc 
+
+            -> Scripting / Automation: Boto3, Azure Python SDK, Web Scrapping etc
+
+            -> Desktop Applications: Tkinter, PyQT etc
+
+        -> Interpreted
+
+            -> Compiled (Java)        vs          Interpreted (Python)
+
+                -> Whole Programs                     -> Line By Line  
+                runs once
+
+                -> FAST                              -> SLOW
+
+                -> App Development is SLOW           -> App Development is FAST   
+
+                -> We need more softwares            -> Only focus is on interpreter
+                    compiler, interpreter 
+        
+        -> OOPS (Class & Objects) ( To Represent REAL WORLD ENTITIES )
+
+            -> OOPS Features
+
+                -> Inheritance    (REUSE)
+                -> Abstraction    (Hiding Implementation(Methods) ) 
+                -> Polymorphism   (Many Forms)  (NetBanking, UPI, Credit Card) 
+                -> Encapsulation  (Hiding DATA)  
+
+        -> Functional Programming Language
+
+            -> Lambda Functions / Lambda Expressions (Concise Coding)
+
+    -> Popular Applications Built Using Python ?
+
+        -> Three Tier Architecture
+
+            -> Frontend Tier (HTML,CSS,JS) (Client side tech)   --> EXECUTION ( YOUR DEVICE (your laptop) )
+            -> Backend Tier (Java, Python, Nodejs, C# )         --> EXECUTION ( SERVERS (OnPrem / Cloud) )
+            -> Database Tier (SQL(MySQL, Postgres, MS SQL etc), NOSQL(MongodDB, DynamoDB, CosmosDB etc)) --> EXECUTION ( SERVERS (OnPrem / Cloud) )
+
+2nd July 2025    
+==============
+
+    -> Python Environment (Python Runtime)
+
+    -> I have Python App, to run it we need, Python Environment.
+
+    -> Verify Python Runtime
+
+        -> python --version
+    
+    -> We can execute python code in two different modes
+
+        -> Script Mode 
+
+            -> We use files to write the code and execute
+
+            -> In real time we use Script Mode 
+
+            -> We use  (Integrated Development Environment)
+
+        -> Command Line Mode / Interactive Mode
+
+            -> we use CLI, (Command Prompt), to write the code and execute
+        
+        -> IDE 
+
+            -> VS Code (Will use this) --> Very Light Weight & Lot Of Extensions
+            -> PyCharm
+            -> Eclipse
+            -> Notepad++ 
+            -> ATOM
+            -> Sublime Text etc
+
+        -> When we write python code, we cannot use our own Language
+            we need to use what only python interpreter knows
+
+        -> Python Syntax / Python Code Rules
+
+            -> peps.python.org/pep-0008
+
+        -> In python we have keywords
+
+    -> keywords
+
+        -> Predefined reserved words, that have special meaning to python interpreter
+
+        -> We have 35 keywords
+
+3rd July 2025    
+==============
+
+    -> Version Controlling 
+
+        -> Tracking CHANGES(CODE/FILES) over a period of time
+
+        -> Git (Client) - Tracks changes inside laptop
+
+            -> git config --global user.name ravi2krishna
+            -> git config --global user.email ravi2krishna@gmail.com
+        
+        -> GitHub (Service/Server) - Tracks changes over organization level
+
+            -> Create GitHub Account 
+            -> Create Repository (Project with history)
+        
+        -> Using VS Code (Clone Repository from GitHub)
+
+            -> Write code (VS Code + Git)
+            -> Stage code (VS Code + Git)
+            -> Commit Code (VS Code + Git)
+            -> Push Code (VS Code + GitHub)
+
+7th July 2025    
+==============
+
+    -> Identifiers
+
+        -> Names 
+
+            -> Variables
+            -> Functions
+            -> Modules
+            -> Classes
+            -> Objects
+            -> Methods
+            -> etc
+
+    -> Identifiers Rules
+
+        -> Can Contain
+
+            -> Letters(a-z, A-Z)
+            -> Digits(0-9)            
+            -> UnderScore(_)
+
+        -> Should Start with
+
+            -> A letter(a-z, A-Z) or
+            -> UnderScore(_)   
+
+        -> Cannot Start with Digits
+        -> Cannot be a python keywords(def, if, class etc)        
+        -> Identifiers are case sensitive (Name, name, NAME)
+
+
+    -> Variables
+
+        -> Variables are names of Memory Locations, which are used to STORE DATA
+       
+       -> Variables allow you to
+
+            -> Manipulate Data
+            -> Access Data
+            -> Hold Data
+
+       -> Variables should follow naming conventions
+
+            ->  Identifiers Rules 
+
+       -> Java 
+
+            -> String brand = "Levis";
+            -> float ratings = 4.2f;
+            -> int price = 1600
+            -> int size = 32
+
+        -> Python (Dynamic Typing)
+        
+            -> brand = "Levis" 
+            -> ratings = 4.2
+            -> size = 32    
+
+        -> id function : prints the memory address
+
+        -> type function : prints the datatype being assigned
+
+        -> Outputs
+
+            -> print - to Output values
+
+            -> Concatenation : Combining two more more strings
+                -> + (when used with strings) 
+                -> + (when used with numbers - addition operator) 
+
+        -> Naming conventions
+
+            # ProductName --> Pascal Case (ClassNames)
+
+            # productName --> CamelCase (objectNames)
+
+            # product_name --> SnakeCase (When using variables & functions)
+
+
+8th July 2025    
+==============
+
+    -> Interpolation
+
+        -> In context of Programming, Interpolation means REPLACING PLACEHOLDERS with 
+        ACTUAL VALUES
+
+        -> To achieve this, we can use f-strings(Formatted String Literals) in Python
+
+        -> In f-strings we use { } to Represent variables which will be replaced with ACTUAL values
+
+    -> Operators
+
+        -> Special symbols, that performs operations on variables and values(Operands)
+
+        -> We use Operators to Manipulate variables
+
+        -> Types
+
+            -> Arithmetic Operators 
+
+                -> Mathematical Calculations
+
+                -> + - * / % // **
+
+            -> Compound Assignment Operators
+
+                ->  Combine Assignment operator with Arithmetic Operators  
+
+                -> =,+=, -=, *= etc  
+
+                -> For concise (shorter) syntax
+
+                -> x = x + 5 or -> x += 5
+
+                -> Other Programming Languages like java we have decrement(--) and increment(++) 
+
+                    -> NOTE: python doesn't support decrement(--) and increment(++) 
+            
+            -> Comparison / Relational Operators
+
+                -> Used to compare values and returns a boolean
+
+                -> ==, !=, >, <, <=, >=  
+
+                -> For strings it will check, Lexicographical order i.e Dictionary Order
+                   based on ASCII Values
+
+            -> Logical Operators
+
+                -> Used to combine multiple conditions
+
+                -> and, or, not
+
+                X       Y           X and Y         X or Y    not X
+
+                T       T              T              T         F
+                T       F              F              T         F     
+                F       T              F              T         T
+                F       F              F              F         T
+
+            -> Membership Operators   
+
+                -> Used to check if a sequence is present
+
+                -> If sequence found, returns True
+                -> If sequence not found, returns False
+
+                    -> in 
+                    -> not in
+
+            -> Identity Operators
+
+                -> Used to compare the Objects, not if they are equal(==)
+
+                    -> is
+                    -> is not
+
+            -> Bit Wise Operators
+
+                -> Used to perform operations on binary bits
+
+                -> Use Cases - Embedded Systems, Network Programming etc
+
+                -> &(AND), |(OR), ^(XOR), ~(NOT), <<(Left Shift), >>(Right Shift)
+
+                -> & : sets each bit to 1 if both are 1
+                -> | : sets each bit to 1 if of of the bit is 1
+                -> ^ : sets each bit to 1 if only one of the bits is 1
+                        -> meaning if both values are different then output is 1, 
+                            if both values are same then output is zero
+                -> ~ : inverts the bits
+
+                -> << : Shift left pushing zeros in from right, let the leftmost bits fall off
+
+                -> >> : Sift right by pushing the leftmost bits from the left, 
+                    let the rightmost bits fall off
+
+
+
+                X       Y             X & Y         X | Y     X ^ Y
+
+                1       1               1             1         0
+                1       0              
+                0       1              
+                1       1              
+
+9th July 2025    
+==============
+
+    -> Data Types
+
+        -> Numeric Types
+
+            -> Integer - Whole numbers
+
+                10,20,-10
+            
+            -> Floating Points - Decimal numbers
+
+                3.14, 1.5
+
+            -> Complex Numbers (a+ib) --> i imaginary part
+
+                -> In python we use j instead of i
+
+                -> c = 5 + 5j
+        
+        -> Text Types 
+
+            -> String (a sequence of characters)
+
+            -> In python we don't have character data type
+
+        -> Boolean Types
+
+            -> True
+            -> False
+
+        -> Data Structures
+
+            -> Sequence Types
+
+                -> Lists
+
+                    -> Sequence of values separated with commas, declared inside []
+                    -> Mutable Data (Data can be changed)
+                    -> teams = ["IND","AUS","ENG"]    
+                    -> scores = [5,4,3]
+
+                -> Tuples
+
+                    -> Sequence of values separated with commas, declared inside ()
+                    -> Immutable Data (Data cannot be changed) 
+                    -> teams = ("IND","AUS","ENG")
+                    -> scores = (5,4,3)
+
+                -> Sets
+
+                    -> Sequence of values separated with commas, declared inside { }
+                    -> Mutable Data (Data can be changed)
+                    -> teams = {"IND","AUS","ENG"}
+                    -> scores = {5,4,3}
+                    -> NO DUPLICATES ALLOWED, so data should be UNIQUE ONLY
+
+                -> Maps
+
+                    -> Sequence of key:value pairs separated with commas, declared inside { }
+                    -> Mutable Data (Data can be changed)
+                    -> info = {"name":"ravi","city":"hyd","time":"9am"}
+
+        -> None type
+
+            -> Represent the absence of value            
+
+11th July 2025    
+==============
+
+    -> Type Conversion & Type Casting
+
+    -> Type Conversion
+
+        -> Conversion of one datatype to another data type
+
+        -> Implicit (You Don't need to do) --> Python interpreter will do it automatically
+
+            -> Automatic Conversion - Widening (Taking Smaller Data Type and Putting in Larger DT)
+
+        -> NOTE: NO DATA LOSS WILL OCCUR
+
+
+    -> Type Casting
+
+        -> Conversion of one datatype to another data type
+
+        -> Explicit Conversion (You need to do) --> Manually you need to perform Type Casting
+
+            -> No Automatic Conversion - Narrowing (Taking Larger Data Type and Putting in Smaller DT)
+
+        -> NOTE: DATA LOSS WILL OCCUR    
+
+    -> NOTE: If you attempt to convert Incompatible Types i.e converting a non-numeric string
+    ti integer we get Errors.
+
+12th July 2025    
+==============
+
+    -> Control Statements / Structures
+
+        -> Conditional Statements (Decision Making Statements)
+
+        -> Looping Statements (Iteration Statements)
+
+        -> Branching Statements (Jump Statements)
+
+    -> Conditional Statements    
+
+        -> Also called as Decision Making Statements
+
+        -> Decision/condition --> True/False (Boolean)
+
+        -> Types Of Conditional Statements    
+
+            -> if Statement : Runs code block only if condition is true
+
+            -> if-else Statement: Runs one code block if condition is true, another code block
+                if condition is false
+
+                -> ternary operator is also known as Conditional Operator
+
+                -> it is concise form of if-else Statement
+
+                    -> Syntax 
+
+                        value_if_true if condition else value_if_false
+
+            -> elif Statement: Check multiple conditions and run appropriate code blocks
+
+            -> match-case Statement (python 3.X): Check multiple conditions and run appropriate code blocks
+
+
+        -> input() - input function is used to take user input from keyboard, and interact with Program
+
+            -> input() process everything as String, use casting 
+
+
+14th July 2025    
+==============        
+
+    -> match-case Statement (python 3.X): Check multiple conditions and run appropriate code blocks
+
+    -> we can use range() function - to generate a sequence of numbers (loops & conditions)
+
+
+16th July 2025    
+==============    
+
+    -> Loops - Used to perform REPETITIVE Tasks/Steps
+
+        -> while loop
+
+            -> Run / Repeat code block as long as the condition is TRUE
+
+            -> If you don't know number of Iterations before hand, use while loop
+
+            -> Syntax
+
+                while condition:
+                    Statements
+
+        -> for loop
+
+            -> Used for Iterations in a sequence types(list, strings, tuples, range etc)
+
+            -> If you number of Iterations before hand, use for loop
+
+            -> Syntax
+
+                for element in sequence:
+                    Statements    
+
+    -> range()
+
+        -> loop the range of numbers 
+
+        -> range(start,stop,step) 
+
+        -> range(10) --> 0 to 9
+        -> range(1,10) --> 1 to 9          
+        -> range(1,10,1) --> 1 to 9
+        -> range(10,1,-1) --> 9 to 1
+    
+    -> Branching Statements (Jump Statements) 
+
+        -> break : terminate the loop immediately
+        -> continue : skip the current Iteration
+        -> pass : do nothing(placeholder that does nothing)
+
+
+18th July 2025    
+==============  
+
+    -> Strings - Sequence Of characters
+
+        -> Reperesent Strings
+
+            -> 'hello'
+            -> "hello"
+            -> ''' multi line strings '''
+
+        -> String Slicing
+
+        -> String Immutability
+
+            -> Immutable means cannot change
+
+        -> String Concatenation
+
+        -> String Repeatetion
+
+        -> String Methods
+
+            -> Methods : Task (takes input, process and give output)
+
+            -> dir() function --> used to list all the attributes, methods of specified object
+
+            --> help() --> documentation tool
+
+21st July 2025    
+==============
+
+    -> LMS With String Functionalities
+
+23rd July 2025    
+==============
+
+    -> Any data we used so far we stored inside a variable
+        -> value = 10
+        -> value = "Hello"
+        -> Using Variables we store ONLY ONE VALUE
+
+        -> values = 10,20,30 (Incorrect with variables)
+
+    -> Where i want to store more than one value or MULTIPLE Values,
+        we use Collections
+
+        -> values = [10,20,30] (Correct with Collections)     
+
+    -> Collections
+
+        -> Using Collections we can store more than one value or 
+            MULTIPLE Values
+        
+        -> Python provided 4 Classes to handle multiple values
+            -> Lists
+            -> Tuples
+            -> Dictionaries
+            -> Sets
+    
+    -> Data Structure - Way of organizing and storing data 
+
+    -> Lists 
+
+        -> List is a built-in data structure, which allows to
+        store multiple items in a single variable using []
+
+        -> Lists are one of mostly widely used data structures
+        in python
+
+        -> Inside Lists we have different types of data
+
+        -> Access data inside Lists
+
+            -> Each item inside a list has a position, called Index
+            -> Index starts from 0 same as in strings or any iterable
+            -> Both Positive & Negative supports
+            -> Indexing and Slicing supports, same as string
+
+                 -5  -4  -3   -2  -1
+                [10, 20, 30, 40, 50]
+                 0    1   2   3   4 
+
+        -> When working with lists, memory is allocated separately 
+        for every list object, even though values are same.
+
+        -> Individual elements inside the list, will refer to same object
+
+        -> If you access an index out of range, we get errors
+
+        -> We can create lists using list class 
+
+        -> How to know which object is iterable or not ?
+
+            -> use dir() and check for __iter__
+
+        -> Lists Support Various Methods to perform different 
+            operations based on the requirements
+
+        -> List Methods (11) 
+
+            'append', 'clear', 'copy', 'count', 'extend', 'index',
+            'insert', 'pop', 'remove', 'reverse', 'sort
+
+25th July 2025    
+==============
+
+    -> List Methods 
+
+    1 -> append : adds an element to the end of the list
+         element can be a number, string or list also
+
+    2 -> extend : takes an iterable (list, tuples, strings), and add
+    each element to the list Individually
+
+    NOTE: Both append & extend will take only single argument
+
+    3 -> insert : insert allows you to insert an element at
+        a specific position(index)
+
+            -> if you give index out of range, element is added
+            at the end of the list
+
+            -> insert will move the positions, but not replace
+
+    4 -> pop - will remove and returns an element from the list
+        removes last element
+
+    5 -> remove - will remove based on pattern, not by index
+        By default first occurrence is removed, 
+        If pattern is not found, we get error  
+
+    6 -> clear - clears all the elements in list  
+
+    7 -> index - returns index position
+        -> element is must
+        -> start is optional, default start is 0
+        -> end is optional, default end is end of list
+    
+    8 -> count - returns number of times an element is appeared
+
+    9 -> copy - creates a shallow copy, duplicating without 
+    affecting the original
+
+        -> if you want soft copy use Assignment
+    
+    10 -> reverse - reverses the elements in the list, 
+        updates the original list
+
+        -> Reverse but don't update original list (Slicing)
+
+    11 -> sort - sorts the list either in ascending or descending
+        -> Default is ascending
+        -> If you need descending, update reverse as True
+        -> Sort can be possible only with same type of data, 
+            mix data we cannot sort
+
+
+    -> Lists Characteristics
+
+        -> Ordered - Items stored and order is preserved
+
+        -> Mutable - You can change the data (append, remove etc)
+
+        -> Allows Duplicates - Same element can be stored multiple times
+
+        -> Can Hold Any Type Of Data 
+
+
+28th July 2025    
+==============
+
+    -> Tuples - Tuples are also built in data structure, to store 
+    multiple items using a single variable, using parenthesis ()
+
+    -> NOTE - Tuples are IMMUTABLE (Cannot Change) 
+
+    -> Use Tuples, when you have READ ONLY Functionalities
+
+    -> Tuples have only TWO methods
+
+        -> index - returns index position
+            -> element is must
+            -> start is optional, default start is 0
+            -> end is optional, default end is end of list 
+        -> count - returns number of times an element is appeared 
+    
+    -> Tuples Characteristics
+
+        -> Ordered - Items stored and order is preserved
+
+        -> Immutable - You cannot change the data 
+            -> Only Access (index & count only)
+
+        -> Allows Duplicates - Same element can be stored multiple times
+
+        -> Can Hold Any Type Of Data 
+
+        -> NOTE - Use tuples only for data safety(fixed data/constants)
+
+30th July 2025    
+==============
+
+    -> Dictionaries -  Dictionaries are also built in data structure, 
+    to store multiple items as collection of key value pairs 
+    using a single variable, using curly braces { }
+
+    -> Dictionaries are based on key values, rules to check
+
+        -> Keys must be Immutables Only(Strings, Numbers, Tuples)
+            -> 95% or more than that, we use strings as keys
+        -> Values can be any object
+
+    -> Dictionaries Will not support Indexing
+
+        -> NO Indexing and Slicing is supported in Dictionaries
+    
+    -> Dictionaries Characteristics
+
+        -> Ordered - Have defined order
+
+        -> Mutable - You can add, change and remove
+
+        -> Allows Duplicates - Same element can be stored multiple times only Values
+
+            -> Keys are unique (No Duplicates fpr keys)
+
+        -> Keys must be Immutables Only
+
+        -> Values can be any object
+
+        -> NOTE - Store data with a label(key)
+
+            -> Need to look up values quickly based on a name, id etc
+
+1st Aug 2025    
+==============
+
+    -> Sets - Sets are also built in data structure, to store 
+    multiple values using a single variable, using curly braces { }
+
+        -> In sets we don't have key value pairs
+
+        -> Lists - [10,20,30,40,50]
+        -> Tuples - (10,20,30,40,50)
+        -> Sets - {10,20,30,40,50}
+
+    -> Sets are UUU
+
+        -> Unordered
+        -> Unindexed
+        -> Unique elements
+
+        -> NOTE: Duplicates are automatically removed
+
+        -> Used especially for performing Mathematical set operations like
+            union, intersection, difference & symmetric difference
+
+        -> NOTE - TypeError: 'set' object is not subscriptable
+
+        -> not subscriptable - means you cannot use [index] and access
+            elements like in list and tuples
+
+        -> unhashable - means you are using list as a key in Dictionary or
+            adding a list as an element is set (immutables allowed)
+
+    -> Sets operations
+
+        -> 17 operations
+
+    -> Set Characteristics
+
+        -> UnOrdered - Items stored in random order
+
+        -> Mutable - You can change the data 
+
+        -> No Duplicates - Duplicate element will be removed
+
+        -> Can Hold Any Type Of Data 
+
+        -> Unindex for sets (not subscriptable)
+
+        -> When To Use Sets
+
+            -> Uniqueness in data
+            -> Mathematical Set Operations (union, intersection etc)
+
+        -> Regular Sets are Mutable
+        -> Frozen sets are Immutable   
+
+        -> Frozen sets only support
+
+            -> union, intersection, difference, symmetric difference,
+                issubset, issuperset, isdisjoint
+
+4th Aug 2025    
+==============
+
+-> Application Setup Using 
+
+    -> Lists
+    -> Tuples
+    -> Dictionaries
+    -> Sets
+
+6th Aug 2025    
+==============
+
+-> Functions
+
+-> In python, function is a block of code that does 
+    some TASK / ACTION
+
+-> We use functions to get reuseable code, to avoid REPETITION
+
+-> Breaking down complex/large tasks, into smaller manageable blocks 
+    of tasks
+
+-> function syntax
+
+    def function_name():
+        Statements
+
+-> functions with parameters
+
+    -> this type of functions, allow you to pass data to 
+        function, when you call it
+    
+    -> Based on inputs, you can use different logics, 
+    make code more dynamic and flexibility
+
+    -> def arithmetic(a,b):
+    print(a+b)
+
+        # a & b -> parameters
+        # 10 & 20 -> arguments
+
+-> Python Supports different ways to pass arguments to functions
+
+    -> Positional Arguments
+    -> Keyword Arguments
+    -> Default Arguments
+    -> Variable Length Positional Arguments(*args)
+    -> Variable Length Keyword Arguments(**kwargs)
+
+-> Positional Arguments
+
+    -> Pass arguments in the exact order, defined in function
+
+    -> Position matters, like first argument goes to first parameter,
+    second argument goes to second parameter and so on
+
+8th Aug 2025    
+==============
+
+-> Default Arguments
+
+    -> Passing default values to the arguments at function declaration
+
+    -> If we pass any value to the default argument at function call,
+        default value will be overridden by new value passed
+    
+    -> If no value is passed to default arguments, default values declared
+        at function declaration will be considered
+
+    -> Once you declare default parameters, next all consecutive parameters
+    should be default only, not any other    
+
+-> Keyword Arguments
+
+    -> Arguments are passed by Explicitly specifying the name
+
+    -> so function call is based on name of the arguments
+
+    -> Improves code readability and also avoids confusion -> as order doesn't matter
+
+    -> Once you declare Keyword parameters, next all consecutive parameters
+    should be Keyword only, not any other    
+
+    -> If the key is not found or proper key is not given, we get ERRORS
+
+-> Variable / Arbitrary Positional Arguments(*args)
+
+    -> Allows the functions to accept any number of Positional Arguments
+
+    -> Used when we don't know how many arguments a function would receive
+
+    -> Represented using *
+
+    -> All the arguments passed are collected into a tuple 
+
+
+-> Variable / Arbitrary Keyword Arguments(**kwargs)
+
+    -> Allows the functions to accept any number of Keyword(Named) Arguments
+
+    -> Used when we don't know how many arguments a function would receive
+
+    -> Represented using **
+
+    -> All the arguments passed are collected into a Dictionary
+
+-> NOTE - We can use both Arbitrary Positional Arguments and
+    Arbitrary Keyword Arguments together, good for Dynamic data inputs
+
+-> Functions With Return Values
+
+    -> Be default functions will not give any response
+
+    -> To give response, use return keyword
+
+    -> Always give appropriate response with return, as python is dynamic Typed
+        can take any value
+    
+    -> Return Statement, should be the last Statement, in the function execution
+
+
+-> Scopes in Functions
+
+    -> Scope means how variable can be accessed based on where the variable is defined
+
+    -> Local Scope
+
+        -> A local variable is declared inside a function
+
+        -> It only exists while the function runs
+
+        -> You cannot use it outside the function
+
+        -> NOTE: Earlier we have defined parameters, those are also local variables
+
+    -> Global Scope
+
+        -> A Global variable is declared outside a function
+
+        -> It can be used anywhere in code, inside and outside function
+
+        -> By default it is READ ONLY 
+
+        -> If you want to change the value, then you need a keyword called global
+
+11th Aug 2025    
+==============
+
+-> Function Composition
+
+    -> Function calling another function is called as Function Composition
+
+-> Types Of Functions
+
+    -> Built In Functions
+    -> User Defined Functions
+    -> Lambda Functions (Anonymous Functions)
+
+-> User Defined Functions
+
+    -> Functions created by user, with def keyword, the Functions
+        we created so far, all are User Defined Functions
+
+-> Built In Functions
+
+    -> These functions are already defined by Python Language
+
+    -> We don't need to create them. just call them
+
+    -> Functionalities which are used on regular basis will be built in functions
+
+        -> print() 
+        -> id() 
+        -> input()
+        -> type()
+        -> len()
+        -> max()
+        -> min()
+
+    -> To get the inbuilt function we can use __builtin__ module
+
+-> Lambda Functions (Anonymous Functions)
+
+    -> A Lambda function is a small, one line function 
+    -> It doesn't have any name, that's why it's called Anonymous Function
+    -> Used for SINGLE LINE EXPRESSIONS, with keyword lambda 
+    -> Used for simple tasks, especially, when passing function as an argument
+
+    -> Syntax
+        lambda arguments: expression
+
+            -> You can pass multiple arguments
+            -> Only One Line Expression, you cannot pass multiple Statements 
+                like regular functions
+    
+    -> We have Immediate Invoked Lambda Expression(IILE)
+
+
+-> Functional Programming: Python also supports functional programming paradigms, 
+    such as lambda functions, map, filter, and reduce.
+    These features allow you to write concise, functional-style code 
+
+-> Idea Of Functional Programming
+
+    -> We can use Higher Order Functions i.e map, filter, and reduce.
+
+    -> Functions that take another function as an argument
+
+    -> Higher Order Functions goal is to let you perform common operations 
+    on iterables (like lists) in a very clean, concise, and efficient way, 
+    without writing explicit lengthy code for loops.
+
+    -> map - Applies a function to each item in the iterable
+
+        -> Just like a for loop 
+
+        -> Think of map() as "DO THIS FOR EVERY ITEM"
+
+        -> syntax 
+
+            map(function,iterable)
+
+    -> filter - Filters the items of an iterable, based on CONDITION
+
+        -> Just like a for loop with condition
+
+        -> Think of filter() as "KEEP ONLY ITEMS WHEN THE CONDITION IS MET"
+
+        -> syntax 
+
+            filter(function,iterable)  
+
+                -> the function must return True / False
+
+    -> reduce - reduces an iterable to a single value, by applying functions 
+        cumulatively
+
+     -> syntax 
+
+            reduce(function,iterable)  
+
+-> Implement As Functions
+
+    print("Choose an option: ")
+    print("1 - Add Student")
+    print("2 - Modify Student")
+    print("3 - Delete Student")
+    print("4 - List All Students")
+    print("5 - Search By Skill") --> Lambda Style 
+        -> Enter Skill To Search -> OP -> Student ID | Student Name 
+            -> No students found with skill git 
+    print("6 - Exit App")
+
+
+13th Aug 2025    
+==============
+
+-> Modules 
+
+    -> Module - It's a simply python file that contains
+        -> Python Definitions (Variables, Functions, Classes)
+        -> Python Statements
+
+    -> Allows you to reuse the code across multiple Programs, by importing that Module 
+        instead of rewriting the code multiple times
+        
+        -> Code Reusability
+        -> Code Organization
+        -> Logical Separation Of Code
+
+    -> Types Of Modules
+
+        -> User Defined Modules
+            -> You create your own modules based on your requirement
+        -> Built In Modules
+            -> Pre-Installed comes with Python (math, random, sys, os etc)
+        -> External Modules
+            -> Modules provided by 3rd parties and communities, download and install
+                (Numpy, Pandas etc)
+
+
+    -> User Defined modules
+
+        -> Modules you create by yourself i.e simply a .py file
+
+    -> External Modules
+
+        -> PIP - Python Package Manager
+
+15th Aug 2025    
+==============
+
+    -> Packages - A package is a way to organize related modules(python files) together 
+
+    -> Module - A single .py file with some reuseable code
+
+    -> Package - A folder that contains multiple modules(python files)
+
+    -> Inside the folder, which you want to make as a package, we need to keep
+        a special file name __init__.py (can be empty -> start up configs can be kept)
+
+-> File Operations
+
+    -> File operations in python allows for creating, reading, updating and deleting
+
+    -> When working with data(persistent data), we want data to be stored 
+        beyond programs execution
+    
+    -> Opening File (Working with existing files)
+
+        -> 1st Approach using open function, and modes 
+            -> r - read (reading data)
+            -> w - write (will overwrite if file doesn't exist creates)
+            -> a - append (add to existing)
+
+        -> 2nd Approach using with open and modes    
+
+    -> NOTE - 1st approach file will not close automatically
+              2nd approach file will close automatically  
+
+    
+    -> Create a file
+        -> Using open with write mode, creates a file
+
+    
+-> Working With CSV files
+
+
+20th Aug 2025    
+==============
+
+    -> Working with Web Applications
+
+        -> Interaction happens between Client and Server
+
+    -> JSON is light weight data interchange format
+
+    -> Working with JSON is must when using Web Development API's 
+
+        -> Django 
+
+    -> We Can import json module and work with JSON data
+
+    -> When Working With json module
+
+        -> json.dump() -> Write JSON to file
+
+        -> json.load() -> Read JSON from file
+
+        -> json.dumps() -> Convert Python To String 
+
+        -> json.loads() -> Convert String To Python
+
+
+-> Exception(Error) Handling 
+
+    -> Exception - it's a error that occurs, during Program execution
+    
+    -> What happens when an Exception occurs ?
+
+        -> It will abruptly stop the program execution, then and there it self
+
+        -> Python way of Handling Exceptions is to stop
+
+    -> To handle the Exceptions by yourself
+
+        -> try
+        -> except 
+        -> else
+        -> finally
+        -> raise 
+
+    -> try and except
+
+        -> try - code that may cause error
+
+        -> except - code to run if there is error
+
+22nd Aug 2025    
+==============
+
+-> Exception Handling
+
+    -> When we get multiple Exceptions
+
+    -> If you want to know appropriate types of errors, we can use sys module
+
+        -> sys.exc_info() 
+
+    -> To catch multiple Exceptions, you can use multiple except's
+
+    -> else & finally
+
+        -> else - Runs if no Exception is raised in the try block 
+
+        -> finally - Runs no matter what happens, whether you have an Exception or not
+            -> For finally cleaning up 
+    
+
+-> User Defined Exceptions
+
+    -> You can create your own Exceptions
+
+    -> Why ?
+
+        -> To handle errors in our own way, so that we can give more meaningful and readable
+        error messages
+
+    -> We have a predefined class called Exception
+
+        -> If you use(inherit) Exception class then the inherited class is User Defined Exception
+
+        syntax: 
+        class MyCustomException(Exception):
+            pass
+
+
+
+-> OOPS 
+
+    -> Object Oriented Programming
+
+        -> Structuring the code using OOPS principals
+
+        -> Here we will group data and behavior together using Objects
+
+        -> Why ?
+
+            -> Reusability
+
+            -> Clear Structure for Representing real world entities into programming
+
+            -> When we work with large scale Applications
+
+    -> OOPS Learning
+
+        -> Classes
+
+        -> Objects
+
+        -> Methods (Functions)
+
+        -> Inheritance
+
+        -> Polymorphism
+
+        -> Encapsulation
+
+        -> Abstraction         
+
+
+-> Class : Blueprint for Objects 
+
+    -> Laptop is a class 
+
+    -> Data 
+        -> Brand 
+        -> Model 
+        -> Screen
+        -> etc
+    
+    -> Behavior
+        -> play_audio
+        -> play_video
+        -> etc
+
+-> Object : An real world instance of a class is Object, it has its own data and behavior
+
+    -> New Real Laptop : mac
+        -> Brand : Apple
+        -> Model : mac book air
+        -> Screen : 13 inch
+        -> etc
+
+        -> play_audio("can play audio with 10 watt speaker") 
+        -> play_video("can play audio with 4k Content") 
+
+    -> New Real Laptop : dell
+        -> Brand : Dell
+        -> Model : Alien Ware
+        -> Screen : 13 inch
+        -> etc
+
+        -> play_audio("can play audio with 30 watt speaker") 
+        -> play_video("can play audio with 1080p Content") 
+
+
+    -> Methods - Block of code that executes / performs a TASK / ACTION
+
+        NOTE - If we write a function inside a class, then it's called as Method
+
+        -> Methods will act on objects data i.e play_video using screen (object data)
+
+
+    -> syntaxes
+
+        class ClassName:
+            pass
+        
+        object = ClassName()
+
+        def function_name():
+            pass
+
+25th Aug 2025    
+==============
+
+-> Classes - Objects - Methods
+
+-> NOTE : When we execute, code inside class, it runs, unlike functions
+-> NOTE : Class call is not mandatory, function call is mandatory
+
+-> student_obj.info() # TypeError: info() takes 0 positional arguments but 1 was given
+
+-> NOTE: There is a default behavior with python, that is python automatically
+    passes an object (student_obj) as the first argument to the method
+        first argument is called as self 
+        self == this 
+
+-> NOTE : self is referring to current object of class  
+          python automatically passes self as first argument, when we call method
+          that's why methods must accept self as first parameter
+          self lets methods access instance(object) variables
+
+-> When we have class level variable, we can use Classname.variable to access them
+
+-> we have data(student_name & student_email) fixed/hard coded right in the class, 
+    now I want to pass dynamic data like we used to do in functions, then we need a 
+    special method __init__ 
+
+-> __init__ is a special methods(Constructor) in python
+
+    -> It is used to initialize the values to object variables
+
+    -> It will automatically run, when we create an object
+
+    -> When working with __init__ methods, there is no concept of return, as it always implicitly 
+    returns None 
+
+
+-> Instance Variables
+
+    -> Instance Variables/Attributes are variables that belong to an object (instance), not the class.
+    
+    -> Instance variables are commonly defined in the __init__ method (constructor) 
+        using the self keyword
+        
+    -> Each object has its own copy of instance variables with potentially different values, 
+        meaning modifying an instance variable in one object does not affect the same variable 
+        in other objects
+    
+    -> Accessed via self.variable_name
+
+-> Instance Methods
+
+    -> Methods inside a class that operate on instance variables i.e 
+        Operate on object (instance) data.
+    
+    -> Most common type of methods in Python classes.
+
+    -> Instance methods always take self as the first parameter 
+        (represents the object calling it).
+    
+    -> Can access instance variables and class variables
+
+    -> called using object_name.method().
+
+    -> instance methods cannot be called with Classname
+
+   ->  Instance Variable + Instance Method Relationship
+            -> Instance variables store data for each object.
+            -> Instance methods use self to access & modify that data.
+
+
+-> Class variables
+
+    -> Class Variables are shared data i.e data is shared across all the instances(Objects) of class
+
+    -> Class Variables Belong to a class, rather than objects
+
+    -> Defined inside the class, but outside the methods.
+
+    -> Access
+
+        -> We can use ClassName.variable 
+        -> We can use object or self (But preferred is always classname ) 
+
+    -> If class variable is changed, it will reflect all the objects calling on it
+
+    -> For Memory efficiency, as only one copy of class variable is create, though 100's of objects
+         are using it
+
+-> Class Methods
+
+    -> Methods defined inside the class, that will operate on class variables
+
+    -> Not very commonly used like instance methods
+
+    -> Class methods are more bound to classes, but not objects
+
+    -> Take cls as a first parameter (cls refers as class, self refers to object) 
+
+    -> These methods cannot act(modify) instance data / Variables
+
+    -> NOTE : We use @classmethod decorator for class methods
+
+-> Class Variable + Class Method Relationship
+    -> Class variables store data common to all objects.
+    -> Class methods change or use that shared data.    
+
+29th Aug 2025    
+==============
+
+    -> Instance Variables
+    -> Class Variables
+    -> Instance Methods
+    -> Class Methods
+    -> Static Method
+    -> Local Variables
+
+
+-> Static Methods - Not bound to either the class or object, 
+
+    -> So static methods do not depend on instance variables nor class variables
+
+    -> It's not ver often used
+
+    -> For some helper functions or utilities can be Static Methods
+
+    -> We use @staticmethod decorator
+
+    -> For static methods, it's not mandatory to pass first argument like cls or self
+
+
+-> Local Variable
+
+    -> Variable whose scope only exist within the methods
+    -> student_name,student_email as parameters are local variables
+
+
+OOPS Principals
+===============
+
+    -> Inheritance : is a concept, where a class(subclass or child) will inherit properties and methods from
+    another class(superclass or parent). 
+
+    -> Purpose : Reusability
+
+    -> Syntax
+
+        class Parent:
+            pass
+
+        class Child(Parent):
+            pass    
+
+        obj = Child()
+
+    -> Types Of Inheritance
+
+        -> Single Inheritance        
+        -> Multi Level Inheritance
+        -> Multiple Inheritance
+        -> Hierarchal Inheritance
+        -> Hybrid Inheritance
+
+    -> MRO : Method Resolution Order
+
+       MRO (Method Resolution Order) in Python is the order in which 
+       Python searches for a method in a class hierarchy when multiple classes 
+       are involved (especially in multiple inheritance).
+    
+        -> Rules, when you call a method on object
+            -> Python starts from the current class
+            -> Then moves left to right through base classes
+            -> Follows the MRO list of classes
+            -> Stops when it finds the first matching order 
+    
+    -> super() is used
+
+        -> call a parent class method from the child
+        -> call the parent constructor(__init__)
+
+
+4th Sep 2025
+============
+
+    -> Polymorphism : Many Forms for single entity 
+
+        -> Same method, with different behaviors, depending on object calling
+    
+    -> Overriding : In python, when a sub class provides custom implementation for
+        parent class method, then this concept is called method Overriding.
+
+    -> Duck Typing :  
+        "If it walks like a duck and it quacks like a duck, then it must be a duck." 
+        -> No Inheritance is required, just methods name is enough
+
+5th Sep 2025
+============
+
+-> Encapsulation : Binding Data and Behavior together inside a class and 
+    restricting(not very strict in python) direct access to data. 
+
+-> Languages like C++?Java, they use access modifiers which is for strict enforcing 
+
+-> Python uses naming conventions to implement Encapsulation
+
+-> Python supports three types 
+
+    -> Public : Accessible from anywhere, both inside and outside the class
+
+    -> Private : Accessible only within the class, we use __(double) (prefix)
+       
+    -> Protected : Accessible within the class and subclass, we use _(single) (prefix)
+
+    -> NOTE : Private inside python is not truly private, just hard to access
+
+    -> NOTE: Python doesn't block access to private data entirely.
+     It just leaves it to the wisdom of the programmer, not to write 
+     any code that accesses it from outside the class. 
+     You can still access the private members by Python's name mangling technique.
+
+    -> So, is there proper encapsulation in Python?
+
+        Java/C++ = “You’re not allowed.”
+        Python = “You shouldn’t, but you can if you insist.”  (name mangling technique)  
+
+    -> Setters & Getters 
+
+        -> In Python, getter and setter methods are used to access and modify private attributes safely. 
+            Instead of accessing private data directly, these methods provide controlled access, allowing you to:
+                Read data using a getter method.
+                Update data using a setter method 
+
+    -> NOTE : Encapsulation in python is achieved using
+
+        -> Naming conventions use __prefix (private)
+        -> Using Controlled Validations for data
+            -> Using @property(python way) or regular getter & setters
+
+6th Sep 2025
+============
+
+-> Abstraction : Exposing only what users need and hiding the internal details
+
+    -> You define a Contract(What Must Be Done) and 
+        then let the different classes implement the details(How It's Done)
+    
+    -> Abstraction Allows Developers to focus on What an Object Does, instead of how it does
+
+-> If we apply Abstraction
+
+    -> Hide The Complexity : Callers(Users) will rely on a simple interface 
+
+    -> Enforce Contracts : Subclasses must implement required functionalities 
+
+-> Taking Laptops As Scenario 
+
+-> To Implement Abstraction 
+
+    -> When we want python to enforce Subclasses implement certain functionalities/Contracts
+
+        -> We use Abstract Base Class (abc module)
+        -> We Define Abstract Methods using @abstractmethod
+
+    -> NOTE : To achieve Abstraction use abc module
